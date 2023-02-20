@@ -1,0 +1,13 @@
+:root { 
+    --bg-master: #0C042C; 
+    --bg-complemento-header: rgba(217, 217, 217, 0.1); 
+    --segundo-color: #E4EFEF;
+
+    
+    --letras-primarias: 'Fira Sans Condensed', sans-serif;
+    --letras-secundarias: 'Hammersmith One', sans-serif;
+    --letras-terciarias:'Inter', sans-serif;
+
+    /* DAGENTE STUDIO */
+    --firma-DagenteStudio: 'Caveat', cursive;
+}
