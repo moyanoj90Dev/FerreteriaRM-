@@ -1,0 +1,17 @@
+Bg: #2D2B51
+Cor secundaria: #699fad
+Letras: #e4efef
+
+
+Boton 
+#37269E - Fondo 
+#BDBCC4 - Letra 
+
+
+
+Paleta de colores original 
+.color1 { #7cb8c2 };
+.color2 { #8ed5dc };
+.color3 { #0c042c };
+.color4 { #5c879c };
+.color5 { #bdbcc4 };
