@@ -1,0 +1,32 @@
+IMAGENES - criterios 
+
+
+CARD_1: 
+	IMAGEN: img_card_1.jpg
+
+_________________
+CARD_2:
+	IMAGEN: img_card_2.jpg
+
+_________________
+CARD_3:
+	IMAGEN: img_card_3.jpg
+
+_________________
+CARD_4:
+	IMAGEN: img_card_4.jpg
+
+_________________
+CARD_5:
+	IMAGEN: img_card_5.jpg
+
+----------------------------------
+
+CARD_7: 
+	IMAGEN: img_card_1.jpg
+
+CARD_8: 
+	IMAGEN: img_card_1.jpg
+
+CARD_9: 
+	IMAGEN: img-card_9.jpg

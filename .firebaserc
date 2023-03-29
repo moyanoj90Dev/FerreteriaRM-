@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "rm-ferreteria-5b763",
+    "Ferreteria RM ": "ferreteria-rm",
+    "RM Ferreteria": "rm-ferreteria-5b763"
+  },
+  "targets": {},
+  "etags": {}
+}

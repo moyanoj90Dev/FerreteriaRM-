@@ -1,0 +1,108 @@
+:root { 
+    
+    --color1: #122247; 
+    --color2: #532a77;
+    --color3: #5e588a;
+    --color4: #7cc9d6;
+    
+    
+    
+    
+    
+    --bg-master: #090129; 
+    --bg-complemento-header: var(--color1); 
+    
+    --bg_seccion-ofertas: #519ca94d;
+    --bg-fondo_ofertas-hover: #49446eb7;
+
+    --bg_linea_contorno:  rgba(73,68,110,1);
+
+    --bg--seccion-redes: rgba(243, 250, 215, 0.021);
+
+    
+
+    --bg_campos: #4b35a505; 
+    
+    
+
+   
+
+    --segundo-color: #E4EFEF;
+    --margin: 0%;
+
+    --letras_header-nav: #3167da;
+    --letras-primarias: 'Fira Sans Condensed', sans-serif;
+    --letras-secundarias: 'Hammersmith One', sans-serif;
+    --letras-terciarias:'Inter', sans-serif;
+
+    /* DAGENTE STUDIO */
+    --firma-DagenteStudio: 'Caveat', cursive;
+
+}
+
+@keyframes moveY { 
+    0% { 
+        transform: traslateX(0px);
+        }
+    50% { 
+        transform: translateX(10px);
+        transform: translateY(10px);
+    }
+    100% { 
+        animation-play-state: paused;
+    }
+}
+
+@keyframes resaltarTituloPrincipal { 
+    
+    0% { 
+        
+        opacity: 0;
+    }
+    50% { 
+        opacity: 1;
+    }
+    100% { 
+        opacity: 5;
+    }
+}
+
+@keyframes borderAnimado{ 
+    0% { 
+        border: solid #090129c9; 
+    
+    }
+
+    33% { 
+        border: solid #519ca986;
+
+    }
+
+    100%{ 
+        border: solid #0c01366c;
+    }
+
+}
+
+
+@keyframes bgTituloPrincipal{ 
+    0% {
+        -webkit-text-fill-color: transparent;
+        background:  var(--color1);
+        -webkit-background-clip: text; 
+       
+    }
+
+    33% {
+        background: var(--color2);
+        background-clip: text;
+        -webkit-background-clip: text; 
+    }
+
+    100%{ 
+        background: var(--color3);
+        background-clip: text;
+        -webkit-background-clip: text; 
+    }
+}
+

@@ -1,0 +1,229 @@
+    body { 
+        background-color: var(--bg-master);
+        color: var(--color4); 
+    }
+
+    .header { 
+        font-family: var(--letras-primarias);
+        background: var(--bg-complemento-header);
+    
+        border-bottom: 1px solid;
+        border-color: var(--color2)
+    }
+
+
+    .header__container__nav { 
+        font-size: 0.7rem;
+    }
+
+    .header__container__nav__a:hover { 
+        transition: 1000ms;
+    
+        font-size: 0.9rem;
+        
+        color: var(--letras_header-nav);
+    
+    }
+
+    /* -------------------------------------------- */
+
+    .main__container { 
+        font-family: var(--letras-secundarias);
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+
+    .main__container__titulo { 
+        color: var(--color4);
+
+        height: 200px;
+        width: 60%;
+    }
+
+    .main__container2__container { 
+        background-image: linear-gradient(#090129e0, #090129c2), url(../img/icones/bg_herramientas.jpg);
+        background-size: cover;
+        
+        border: solid 1px var(--bg_linea_contorno);
+        border-radius: 10px;
+        
+    
+        font-family: var(--letras-primarias);
+    }
+
+    .header__container2__img { 
+        border: none;
+    }
+
+    .main__container2__div { 
+        text-transform: uppercase;
+        
+    }
+
+
+    /* -------------------------------- */
+    .main__container3 { 
+        border: 1px;
+
+        font-family: var(--letras-secundarias);
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .main__container3__container__div { 
+        border: 0.1px ;
+    }
+
+    .main__container3__container__div__img{ 
+        border: 0,1px;
+        border: solid 1px var(--bg_linea_contorno);
+        border-radius: 10px;
+
+    }
+
+    .main__container3__container__div__p{ 
+        border: 1px solid;
+        border: 0,1px;
+        animation: borderAnimado 10s infinite;
+        border-radius: 10px;
+    }
+
+    /* ------------------------------------- */
+    .main__container4 { 
+        border: 1px;
+
+        font-family: var(--letras-secundarias);
+        font-size: .8rem;
+    }
+
+    .main__container4__container-titulo { 
+        height: 70px;
+        text-transform: uppercase;
+        text-align: center;
+        
+        border: solid 1px;
+    
+        background: var(--bg_seccion-ofertas);
+
+        font-family: var(--letras-terciarias);
+        font-size: 2rem;
+    }
+    
+
+    .main__container4__container__div { 
+        border: solid 1px;
+        border-radius: 10px;
+
+        background: var(--bg_seccion-ofertas);  
+        
+    }
+
+    .main__container4__container__container__div-img { 
+        border-radius: 5px;
+    }
+
+    .main__container4__container__div__img { 
+
+    }
+
+    .main__container4__container__div__p-descripcion { 
+        background-color: var(--bg_campos);
+    }
+
+    .main__container4__container__div__p-precio{ 
+        transition: 1000ms;
+        font-size: var(--letra1_hover);
+    }
+
+    .main__container4__container__div__p-precio-anterior { 
+        text-decoration: line-through;
+
+        font-weight: 50;
+        font-size: 0.8rem;
+        color: var(--letra3_hover)
+    }
+
+    .main__container5__bg { 
+        background-image: linear-gradient(#090129d2, #0901299f), url('../img/icones/bg-redes.jpg') ;
+        background-size: cover;
+
+
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main__container5__a:hover{
+
+    }
+
+    .main__container5__a-img{ 
+
+    }
+
+    .main__container5__a-img:hover{ 
+
+
+    }
+
+
+    /* ---------------------- */
+    .footer { 
+
+    }
+
+    .footer__container{ 
+
+    }
+
+    .footer__container__div{ 
+        font-family: var(--letras-terciarias);
+
+        background-color: var(--bg--seccion-redes); 
+    }
+
+    .footer__container__div__card{ 
+        border-left: solid 0.01px #9b02022f;
+    }
+
+    .footer__container__div__card__h4{ 
+    
+    }
+
+    .footer__container__div__card__h4:hover { 
+
+    }
+
+    .footer__container__div__card__p{
+        font-size: 0.65rem;
+    }
+
+    .footer__container2{ 
+        font-family: var(--letras-terciarias);
+    }
+
+    .footer__container__firma{ 
+        color: #b61108;
+        font-family: var(--firma-DagenteStudio);
+        font-weight: 400;
+    }
+
+    .firma:hover{ 
+        font-size: 1.2rem
+        }
+
+    .redesDagenteStudio:hover{ 
+        transition: 800ms;
+        height: 30px;
+    }
+
+    .redesDagenteStudio{ 
+        transition: 800ms;
+        height: 25px;
+    }
+
+    input{ 
+        background: transparent;
+        color: aliceblue;
+    }
+
+    
