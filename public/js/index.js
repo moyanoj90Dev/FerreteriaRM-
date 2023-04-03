@@ -1,23 +1,23 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js";
-import { getFirestore } from "www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js";
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://support.google.com/firebase/answer/7015592
 const firebaseConfig = {
-    apiKey: "AIzaSyBEDnBh0X_LkJL7HqS_e6V7PJCIe4mYyIc",
-    authDomain: "ferreteria-rm.firebaseapp.com",
-    databaseURL: "https://ferreteria-rm-default-rtdb.firebaseio.com",
-    projectId: "ferreteria-rm",
-    storageBucket: "ferreteria-rm.appspot.com",
-    messagingSenderId: "1083474090476",
-    appId: "1:1083474090476:web:aa2f4081593b094f3e88c9",
-    measurementId: "G-K6FM7VC1SR"
-  };
+  apiKey: "AIzaSyBBUWmDUELifYA43db4w3BqA4vGsSYg2X8",
+  authDomain: "rm-ferreteria-5b763.firebaseapp.com",
+  databaseURL: "https://rm-ferreteria-5b763-default-rtdb.firebaseio.com",
+  projectId: "rm-ferreteria-5b763",
+  storageBucket: "rm-ferreteria-5b763.appspot.com",
+  messagingSenderId: "745134559454",
+  appId: "1:745134559454:web:8be4b05f23d0a41e66f24f",
+  measurementId: "G-FTZVLBWZ3C"
+};
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 
 // Initialize Cloud Firestore and get a reference to the service
-export const db = firebase.firestore();
+export const db = getFirestore(app);
